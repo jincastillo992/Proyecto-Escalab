@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudMe | Cloud Hosting para todos</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex"> <!--flex es una clase de utilidad-->
+            <h1 class="logo"><a href="index.html">CloudMe.</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="caracteristicas.html">Caracteristicas</a></li>
+                    <li><a href="docs.html">Documentación</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- Contenido -->
+    <section class="header-docs bg-primario py-3">
+        <div class="container grid">
+            <div>
+                <h1 class="xl">Documentación</h1>
+                <p class="parrafo-docs">
+                    Aprende a trabajar con la plataforma CloudMe.
+                </p>
+            </div>
+            <img src="./src/img/docs.png" alt="documentos">
+        </div>
+    </section>
+    <section class="docs-principal my-4">
+        <div class="container grid">
+            <div class="tarjeta bg-claro p-3">
+                <h3 class="my-2">Esenciales</h3>
+                <nav>
+                    <ul>
+                        <li><a class="texto-primario"href="#">Introducción</a></li>
+                        <li><a href="#">Sobre CloudMe.</a></li>
+                        <li><a href="#">Instalación</a></li>
+                    </ul>
+                </nav>
+                <h3 class="my-2">Despliegue</h3>
+                <nav>
+                    <ul>
+                        <li><a href="#">Preparando el contenedor</a></li>
+                        <li><a href="#">Usando el CLI</a></li>
+                        <li><a href="#">Manejando los recursos</a></li>
+                        <li><a href="#">Actualización y Downgrade</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="tarjeta">
+                <h2>Introducción</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id officia exercitationem quam, accusantium a repudiandae impedit! Nihil, exercitationem provident aliquam rerum perspiciatis sapiente repellendus eius autem inventore minus unde ipsum?</p>
+                <div class="alerta alerta-exito">
+                    <i class="fas fa-info"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ex?
+                </div>
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque possimus commodi saepe quae repudiandae iusto consequuntur, delectus distinctio ipsum doloribus.</p>
+                <a href="#" class="btn btn-primario">Install CLI</a>
+                <h3>Requerimientos</h3>
+                <ul>
+                    <li>Windows 10, Mac OSX, Linux</li>
+                    <li>Node.js v12 o mayor</li>
+                </ul>
+                <h3>Install</h3>
+                <p>Mac (Homebrew)</p>
+                <pre><code>$brew install cloudme-cli</code></pre>
+                <p>NPM</p>
+                <pre><code>$npm install cloudme-cli</code></pre>
+                <p>Yarn</p>
+                <pre><code>$yarn install cloudme-cli</code></pre>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer bg-oscuro py-5">
+        <div class="container grid grid-3">
+            <div>
+                <h1>CloudMe.</h1>
+                <p>Copyright &copy; 2021</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="caracteristicas.html">Caracteristicas</a></li>
+                    <li><a href="docs.html">Documentación</a></li>
+                </ul>
+            </nav>
+            <div class="sociales">
+                <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>    
+    <script src="js/script.js"></script>
+</body>
+</html>
